@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Persona
+
+<h2> @ViewData["Message"]</h2>
+</br>
+
+<h2> @ViewBag.Message</h2>
+</br>
+
+<h2>Lista de Usuarios</h2>
+
+<p>Nombre: @Model.Nombre</p>
+
+
+<p>
+    <a asp-controller="Home" asp-action="Crear">Agregar Usuario</a>
+</p>
+

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulises_mvc", "Ulises_mvc\Ulises_mvc.csproj", "{B362914C-32C5-4EC3-A638-BF726862659D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "a", "a", "{F7B69A7C-7903-4CBB-AB4A-1BC7D3D89D2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B362914C-32C5-4EC3-A638-BF726862659D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B362914C-32C5-4EC3-A638-BF726862659D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B362914C-32C5-4EC3-A638-BF726862659D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B362914C-32C5-4EC3-A638-BF726862659D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64D33DF9-0394-47D9-AE36-D421F049BEA0}
+	EndGlobalSection
+EndGlobal

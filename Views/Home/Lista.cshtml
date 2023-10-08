@@ -1,0 +1,31 @@
+﻿
+
+@model List<Jugador>
+
+<h2>Lista de Jugadores</h2>
+
+<p>
+    <a asp-action="Crear">Agregar Jugador</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Equipo</th>
+            <th>Dorsal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var jugador in Model)
+        {
+            <tr>
+                <td>@jugador.Nombre</td>
+                <td>@jugador.Equipo</td>
+                <td>@jugador.Dorsal</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
