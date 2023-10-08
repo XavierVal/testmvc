@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Datos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Views\Home\Empleado.cs.html">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Empleado.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Grid.Mvc" Version="3.0.0" />
+    <PackageReference Include="bootstrap" Version="5.3.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Datos\" />
+  </ItemGroup>
+</Project>
